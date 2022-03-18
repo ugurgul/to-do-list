@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="?attr/fonrengi"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="?attr/colorPrimary">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_back"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="50dp"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textColor="?attr/textcolor"
+            app:icon="@drawable/ic_arrow_back_black_24dp"
+            app:iconGravity="start"
+            app:iconTint="?attr/colorPrimary"
+            android:backgroundTint="?attr/fonrengi"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtinputAddtask"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dropdownlist"
+            app:hintTextColor="?attr/colorPrimary"
+            app:boxBackgroundColor="?attr/fonrengi"
+            android:layout_weight="1"
+            android:textColorHint="?attr/textcolor"
+            app:boxCollapsedPaddingTop="2dp"
+            app:startIconDrawable="@drawable/ic_assignment_black_24dp"
+            app:startIconTint="?attr/colorPrimary">
+
+            <AutoCompleteTextView
+                android:id="@+id/filled_exposed_dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test Task"
+                android:labelFor="@id/txtinputAddtask"
+                android:inputType="none"
+                android:fontFamily="@font/regularopensans"
+                android:textColor="?attr/textcolor" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_apply"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="50dp"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textColor="?attr/textcolor"
+            app:icon="@drawable/ic_check_black_24dp"
+            app:iconGravity="end"
+            app:iconTint="?attr/colorPrimary"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:backgroundTint="?attr/colorPrimary"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/newtask"
+        android:textColor="?attr/textcolor"
+        android:fontFamily="@font/regularopensans"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTfNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/entertask"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextColor="?attr/colorPrimary"
+        android:textColorHint="?attr/textcolor"
+        app:boxStrokeColor="?attr/textcolor"
+        app:boxStrokeWidth="0dp"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_mic_black_24dp"
+        app:endIconTint="?attr/colorPrimary"
+        app:startIconTint="?attr/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txteditNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:fontFamily="@font/lightopensans" />
+        <requestFocus />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:backgroundTint="?attr/textcolor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taskcompdate"
+        android:textColor="?attr/textcolor"
+        android:textAlignment="center"
+        android:fontFamily="@font/regularopensans"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nodate"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextColor="?attr/colorPrimary"
+        android:textColorHint="?attr/textcolor"
+        app:boxStrokeColor="?attr/textcolor"
+        app:boxStrokeWidth="0dp"
+        app:endIconMode="clear_text"
+        app:startIconTint="?attr/colorPrimary"
+        app:startIconDrawable="@drawable/ic_today_black_24dp"
+        app:endIconTint="?attr/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtedit_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:fontFamily="@font/lightopensans"
+            android:onClick="txtinpute_date"
+            android:clickable="false"
+            android:focusable="false"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:backgroundTint="?attr/textcolor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tasktime"
+        android:textColor="?attr/textcolor"
+        android:fontFamily="@font/regularopensans"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTfTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/notime"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextColor="?attr/colorPrimary"
+        android:textColorHint="?attr/textcolor"
+        app:boxStrokeColor="?attr/textcolor"
+        app:boxStrokeWidth="0dp"
+        app:endIconTint="?attr/colorPrimary"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_access_time_black_24dp"
+        app:startIconTint="?attr/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtedit_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:fontFamily="@font/lightopensans"
+            android:onClick="txtinpute_time"
+            android:clickable="false"
+            android:focusable="false"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:backgroundTint="?attr/textcolor"
+        />
+</LinearLayout>

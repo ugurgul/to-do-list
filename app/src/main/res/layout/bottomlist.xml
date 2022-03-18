@@ -1,0 +1,361 @@
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/fonrengi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:background="?attr/fonrengi"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/dropdownlist"
+            android:textColor="?attr/textcolor"
+            android:textAlignment="center"
+            android:fontFamily="@font/regularopensans"
+            android:layout_gravity="center"
+            android:textSize="15sp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?attr/bottombarcolor"
+            app:cardElevation="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:elevation="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:textColorHint="?attr/textcolor"
+                    app:boxStrokeColor="?attr/textcolor"
+                    app:boxStrokeWidth="0dp"
+                    app:startIconDrawable="@drawable/ic_assignment_black_24dp"
+                    app:startIconTint="?attr/colorPrimary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="?attr/textcolor"
+                        android:fontFamily="@font/lightopensans"
+                        android:text="@string/listdefault"
+                        android:singleLine="true"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="50dp"
+                    android:layout_weight="0"
+                    android:layout_height="match_parent"
+                    android:textColor="?attr/textcolor"
+                    app:icon="@drawable/ic_create_black_24dp"
+                    app:iconTint="?attr/colorPrimary"
+                    android:layout_marginTop="5dp"
+                    app:iconGravity="end"
+                    />
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="50dp"
+                    android:layout_weight="0"
+                    android:layout_height="match_parent"
+                    android:textColor="?attr/textcolor"
+                    app:icon="@drawable/ic_delete_black_24dp"
+                    app:iconTint="?attr/colorPrimary"
+                    android:layout_marginTop="5dp"
+                    app:iconGravity="end"
+                    />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="?attr/bottombarcolor"
+            app:cardElevation="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:elevation="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:textColorHint="?attr/textcolor"
+                    app:boxStrokeColor="?attr/textcolor"
+                    app:boxStrokeWidth="0dp"
+                    app:startIconDrawable="@drawable/ic_assignment_black_24dp"
+                    app:startIconTint="?attr/colorPrimary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="?attr/textcolor"
+                        android:fontFamily="@font/lightopensans"
+                        android:text="@string/listshopping"
+                        android:singleLine="true"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="50dp"
+                    android:layout_weight="0"
+                    android:layout_height="match_parent"
+                    android:textColor="?attr/textcolor"
+                    app:icon="@drawable/ic_create_black_24dp"
+                    app:iconTint="?attr/colorPrimary"
+                    android:layout_marginTop="5dp"
+                    app:iconGravity="end"
+                    />
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="50dp"
+                    android:layout_weight="0"
+                    android:layout_height="match_parent"
+                    android:textColor="?attr/textcolor"
+                    app:icon="@drawable/ic_delete_black_24dp"
+                    app:iconTint="?attr/colorPrimary"
+                    android:layout_marginTop="5dp"
+                    app:iconGravity="end"
+                    />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="?attr/bottombarcolor"
+            app:cardElevation="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:elevation="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:textColorHint="?attr/textcolor"
+                    app:boxStrokeColor="?attr/textcolor"
+                    app:boxStrokeWidth="0dp"
+                    app:startIconDrawable="@drawable/ic_assignment_black_24dp"
+                    app:startIconTint="?attr/colorPrimary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="?attr/textcolor"
+                        android:fontFamily="@font/lightopensans"
+                        android:text="@string/listindividual"
+                        android:singleLine="true"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="50dp"
+                    android:layout_weight="0"
+                    android:layout_height="match_parent"
+                    android:textColor="?attr/textcolor"
+                    app:icon="@drawable/ic_create_black_24dp"
+                    app:iconTint="?attr/colorPrimary"
+                    android:layout_marginTop="5dp"
+                    app:iconGravity="end"
+                    />
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="50dp"
+                    android:layout_weight="0"
+                    android:layout_height="match_parent"
+                    android:textColor="?attr/textcolor"
+                    app:icon="@drawable/ic_delete_black_24dp"
+                    app:iconTint="?attr/colorPrimary"
+                    android:layout_marginTop="5dp"
+                    app:iconGravity="end"
+                    />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="?attr/bottombarcolor"
+            app:cardElevation="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:elevation="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:textColorHint="?attr/textcolor"
+                    app:boxStrokeColor="?attr/textcolor"
+                    app:boxStrokeWidth="0dp"
+                    app:startIconDrawable="@drawable/ic_assignment_black_24dp"
+                    app:startIconTint="?attr/colorPrimary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="?attr/textcolor"
+                        android:fontFamily="@font/lightopensans"
+                        android:text="@string/listbusiness"
+                        android:singleLine="true"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="50dp"
+                    android:layout_weight="0"
+                    android:layout_height="match_parent"
+                    android:textColor="?attr/textcolor"
+                    app:icon="@drawable/ic_create_black_24dp"
+                    app:iconTint="?attr/colorPrimary"
+                    android:layout_marginTop="5dp"
+                    app:iconGravity="end"
+                    />
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="50dp"
+                    android:layout_weight="0"
+                    android:layout_height="match_parent"
+                    android:textColor="?attr/textcolor"
+                    app:icon="@drawable/ic_delete_black_24dp"
+                    app:iconTint="?attr/colorPrimary"
+                    android:layout_marginTop="5dp"
+                    app:iconGravity="end"
+                    />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="?attr/bottombarcolor"
+            app:cardElevation="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:elevation="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:textColorHint="?attr/textcolor"
+                    app:boxStrokeColor="?attr/textcolor"
+                    app:boxStrokeWidth="0dp"
+                    android:hint="2"
+                    app:startIconDrawable="@drawable/ic_assignment_turned_in_black_24dp"
+                    app:startIconTint="?attr/colorPrimary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="?attr/textcolor"
+                        android:fontFamily="@font/lightopensans"
+                        android:text="@string/listdone"
+                        android:singleLine="true"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/material_newlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="?attr/bottombarcolor"
+            app:cardElevation="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:elevation="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:textColorHint="?attr/textcolor"
+                    app:boxStrokeColor="?attr/textcolor"
+                    app:boxStrokeWidth="0dp"
+                    app:startIconDrawable="@drawable/ic_library_add_black_24dp"
+                    app:startIconTint="?attr/colorPrimary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtedit_newlist"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="?attr/textcolor"
+                        android:fontFamily="@font/lightopensans"
+                        android:text="@string/listnew"
+                        android:singleLine="true"
+                        android:clickable="false"
+                        android:focusable="false"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- default theme -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="fButtoncolor">#ffff62</item>
+        <item name="fonrengi">#fff</item>
+        <item name="textcolor">@color/textcolor</item>
+        <item name="bottombarcolor">@color/bottombarcolor</item>
+        <item name="android:actionOverflowButtonStyle">@style/SettingIcon</item>
+    </style>
+    
+    <style name="SettingIcon" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_settings_black_24dp</item>
+    </style>
+
+
+
+
+    <style name="dark_style" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- dark theme -->
+        <item name="colorPrimary">#BA55D3</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">#BA55D3</item>
+        <item name="fonrengi">#000</item>
+        <item name="textcolor">#a8a8a8</item>
+        <item name="bottombarcolor">#272727</item>
+        <item name="fButtoncolor">#BA55D3</item>
+        <item name="android:actionOverflowButtonStyle">@style/SettingIcon</item>
+    </style>
+
+
+
+
+
+    <style name="Widget.Catalog.Toolbar" parent="Widget.MaterialComponents.Toolbar.PrimarySurface">
+        <!-- Toolbar should always be within an AppBarLayout which provides the background. -->
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>

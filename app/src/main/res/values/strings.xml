@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">todoList</string>
+
+    <string name="denemetext">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</string>
+
+    <string name="newtask">New Task</string>
+    <string name="entertask">Enter the task here</string>
+    <string name="taskcompdate">Task completion date</string>
+    <string name="tasktime">Task completion time</string>
+    <string name="notime">Enter the time here</string>
+    <string name="nodate">Enter the date here</string>
+    <string name="dropdownlist">My List</string>
+    <string name="listdefault">Default</string>
+    <string name="listshopping">Shopping</string>
+    <string name="listindividual">Individual</string>
+    <string name="listbusiness">Business</string>
+    <string name="listdone">Done</string>
+    <string name="listnew">New Task List</string>
+
+
+    <string name="testDate">16 Mayıs 1990 Saat 23:00</string>
+    <string name="testTask">Göbek At Zaaa</string>
+
+
+
+
+
+
+
+
+
+    <string name="menu_appbar_search">Search</string>
+    <string name="menu_appbar_important">Important Tasks</string>
+    <string name="menu_appbar_completed">Completed Tasks</string>
+
+    <string name="menu_topbar_settings">Theme Settings</string>
+
+    <string name="choose_theme">Choose Theme</string>
+    <string name="light_theme">LIGHT</string>
+    <string name="dark_theme">DARK</string>
+    <string name="default_theme">DEFAULT</string>
+    <string name="first_color">First Color</string>
+    <string name="second_color">Second Color</string>
+    <string name="shape_corner">Shape corner family</string>
+    <string name="shape_size">Shape corner size</string>
+    <string name="shape_rounded">Rounded</string>
+    <string name="shape_cut">Cut</string>
+    <string name="shape_size_small">Small</string>
+    <string name="shape_size_medium">Medium</string>
+    <string name="shape_size_large">Large</string>
+    <string name="apply">APPLY</string>
+    <string name="clear">CLEAR</string>
+
+
+    <string name="mtrl_theme_switcher_title">Theme Switcher</string>
+    <string name="mtrl_theme_switcher_save">Save</string>
+    <string name="mtrl_theme_switcher_cancel">Cancel</string>
+    <string name="mtrl_theme_switcher_reset">Reset</string>
+
+    <string name="mtrl_red">Red</string>
+    <string name="mtrl_purple">Purple</string>
+    <string name="mtrl_indigo">Indigo</string>
+    <string name="mtrl_blue">Blue</string>
+    <string name="mtrl_green">Green</string>
+    <string name="mtrl_yellow">Yellow</string>
+    <string name="mtrl_orange">Orange</string>
+    <string name="mtrl_brown">Brown</string>
+    <string name="mtrl_grey">Grey</string>
+    <string name="mtrl_blue_grey">Blue grey</string>
+    <string name="mtrl_rounded">Rounded</string>
+    <string name="mtrl_cut">Cut</string>
+    <string name="mtrl_rounded_content_description">Rounded corners</string>
+    <string name="mtrl_cut_content_description">Cut corners</string>
+    <string name="mtrl_small_shape_content_description">Small</string>
+    <string name="mtrl_medium_shape_content_description">Medium</string>
+    <string name="mtrl_large_shape_content_description">Large</string>
+    <string name="mtrl_shape_corner_family">Shape corner family</string>
+    <string name="mtrl_shape_corner_size">Shape corner size</string>
+    <string name="mtrl_apply">Apply</string>
+    <string name="mtrl_clear">Clear</string>
+
+    <string name="cat_choose_theme_label">Choose theme</string>
+    <string name="cat_choose_theme_light">Light</string>
+    <string name="cat_choose_theme_dark">Dark</string>
+    <string name="cat_choose_theme_default">System default</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
